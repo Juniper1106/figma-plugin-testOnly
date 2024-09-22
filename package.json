@@ -10,7 +10,7 @@
     "watch": "run-p watch:*",
     "watch:ui": "npm run build:ui -- --watch --mode=development",
     "watch:plugin": "npm run build:plugin -- --watch --mode=development",
-    "clean": "rimraf dist/*",
+    "clean": "rimraf dist",
     "types": "run-s types:*",
     "types:src": "tsc",
     "types:node": "tsc -P tsconfig.node.json",
@@ -20,6 +20,7 @@
     "build:plugin": "vite build -c ./vite.config.plugin.ts"
   },
   "dependencies": {
+    "antd": "^5.20.6",
     "monorepo-networker": "^1.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
