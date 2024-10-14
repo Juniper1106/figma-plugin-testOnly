@@ -9,8 +9,6 @@ function SliderArea() {
     <div className="sliderContainer">
         <Slider defaultValue={30} disabled={disabled} />
         <Slider defaultValue={30} disabled={disabled} />
-        <Slider defaultValue={30} disabled={disabled} />
-        <Slider defaultValue={30} disabled={disabled} />
     </div>
     );
 }
