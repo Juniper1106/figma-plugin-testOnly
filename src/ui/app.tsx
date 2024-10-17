@@ -3,6 +3,8 @@ import "@ui/styles/main.scss";
 import AIAvatar from "./components/AIAvatar";
 import SliderArea from "./components/SliderArea";
 import HistoryActions from "./components/HistoryActions";
+import TestButtons from "./components/TestButtons";
+import { Button, Flex, Divider} from "antd";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <AIAvatar />
       <SliderArea />
       <HistoryActions />
+      <TestButtons />
     </div>
   );
 }
